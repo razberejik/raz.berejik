@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="forms.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="raz_h1">HELLO WELCOME TO MY WEBSITE</h1>
+    <h2> Sign in </h2>
+    <form action="post">
+        <label for="fname" class="form_label">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname" class="form_label">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="bday" class="form_label">Birthdate: </label><br>
+        <input type="date" id="bday" name="bday"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="pword">Password:</label><br>
+        <input type="password" id="pword" name="pword" required><br><br>
+
+        <!-- submit -->
+        <input type="submit" value="Submit">
+    </form> 
+    <h2> Contact Us</h2>
+    <form action="post">
+        <label for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" ><br>
+        <label for="comment">Your comment for us:</label> <br><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"
+         placeholder="Enter your comment"></textarea><br>
+
+        <!-- submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+        
+</body>
+</html>                                                         

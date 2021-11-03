@@ -1,0 +1,20 @@
+* {
+    color: rgb(63, 34, 196);
+}
+body{
+    background-color: rgb(202, 247, 229);
+}
+#raz_h1{
+    text-align: center;
+    color: rgb(22, 139, 114);
+
+}
+h2{
+    color: darkslateblue;
+}
+
+.form_label{
+    text-align: center;
+    color: rgb(24, 179, 145);
+
+}
