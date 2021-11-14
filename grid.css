@@ -1,0 +1,38 @@
+
+body{
+    background-color: royalblue;
+}
+#GridContainer {
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'left main main'
+    'left main main';
+
+} 
+
+#item1{
+grid-area: header;
+border:green 13px;
+height: 100px;
+width: 200px;
+padding: 20px;
+margin: 20px;
+background-color:tomato;
+}
+#item2{
+grid-area: left;
+height: 100px;
+width: 200px;
+padding: 20px;
+margin: 20px;
+background-color: wheat;
+}
+#item3{
+grid-area: main;
+height: 100px;
+width: 200px;
+padding: 20px;
+margin: 20px;
+background-color: wheat;
+}

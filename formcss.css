@@ -1,0 +1,40 @@
+label {
+color: blueviolet;
+padding: 6px;
+margin: 10px;
+border: 2px solid black;
+}
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    padding: 6px; ;
+    margin: 10px;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+}
+
+#sighinHeader{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.typeErea{
+    background-color: rgb(196, 212, 243);
+    border: 2px solid ;
+}
+input.typeErea{
+    background-color: rosybrown;
+}
+a{
+    color: #000;
+}
+a:link{
+    color: royalblue;
+}
+a:visited{
+    color: rgb(70, 225, 65);
+}
