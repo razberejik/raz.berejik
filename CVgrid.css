@@ -61,6 +61,39 @@ div div{
   padding: 20px;
   margin: 20px;
   top: -150px;
+
 }
+  
+@keyframes animazia {
+  from { background-color: lightgreen;}
+  to {background-color: lightpink }
+}
+div div{
+  
+  animation-name: animazia;
+  animation-duration: 4s;
+  /*animation-iteration-count: infinite;*/
+}
+
+@keyframes wesslyspin {
+  0%{
+    transform: rotate(0deg);
+}
+25%{
+   transform: rotate(180deg);
+}
+50%{
+   transform: rotate(-180deg);
+}
+100%{
+   transform: rotate(0deg);
+}
+}
+div div div{
+  animation-name: wesslyspin ;
+  animation-duration: 4s;
+}
+
+
 
 
